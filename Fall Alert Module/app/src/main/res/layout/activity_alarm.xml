@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/falldetected2"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Alarm">
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="206dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="90dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonProblem"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/button"
+        android:text="NEED HELP !"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="98dp"
+        android:layout_marginRight="90dp" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/button"
+        android:text="I am OKAY !"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>
