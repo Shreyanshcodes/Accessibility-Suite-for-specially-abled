@@ -1,4 +1,4 @@
-# Swipe Detector for Godot Engine
+# Swipe Detector
 Swipe Detector is a swipe detection script that monitor screen input
 (mouse/touch) triggering different signals informing swipe progress
 or swipe finalization. There are a lot of configurations available
